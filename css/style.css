@@ -1,5 +1,12 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+:root {
+  --accent-hover-color: #2196f3;
+  --main-color-fonts: #212121;
+  --description-color: #757575;
+}
+
 .list {
   list-style: none;
 }
@@ -8,8 +15,13 @@ font-family: 'Roboto', sans-serif; */
   text-decoration: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
 .logo-style {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
 
 .logo-link {
@@ -21,55 +33,79 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .navigation-menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .navigation-menu-link:hover,
 .navigation-menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
 
 .tell-link,
 .mail-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color-fonts);
 }
 
 .tell-link:hover,
 .tell-link:focus,
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .hero-modal-btn {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+
+.priorities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.priorities-title-description {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.priorities-work {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item-description {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
