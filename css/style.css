@@ -71,6 +71,12 @@ body {
   color: var(--accent-hover-color);
 }
 
+/* Добавил в хиро фон для удобства */
+.hero {
+  background-color: #000;
+}
+/* Добавил в хиро фон для удобства */
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -152,8 +158,61 @@ body {
   color: var(--white-font);
 }
 
+/* PORTFOLIO.HTML */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.portfolio-list-item {
+  list-style: none;
+}
+
+.portfolio-list-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color-font);
+}
+
+.portfolio-list-item-btn:hover,
+.portfolio-list-item-btn:focus {
+  color: var(--white-font);
+  background-color: var(--accent-hover-color);
+}
+
+.portfolio-listwork-list {
+  list-style: none;
+}
+
+.portfolio-listwork-list-link {
+  color: var(--main-color-font);
+}
+
+.portfolio-listwork-list-link-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-listwork-list-link-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/*  для удобства понимания цвета добавил черный */
 .footer {
   background-color: #000;
 }
-
-/* PORTFOLIO.HTML */
+/*  для удобства понимания цвета добавил черный*/
